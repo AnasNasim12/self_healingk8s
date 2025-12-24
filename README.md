@@ -256,3 +256,13 @@ This project is working correctly if:
 - Grafana alert visualization
 - Practical SRE workflows
 - MTTR improvement via automation
+
+## Screenshots
+
+<img width="1468" height="782" alt="Screenshot 2025-12-24 at 14 23 06" src="https://github.com/user-attachments/assets/73aca0a2-7ed4-4ef3-b936-fa8ea690d39f" />
+<img width="1469" height="784" alt="Screenshot 2025-12-24 at 14 23 44" src="https://github.com/user-attachments/assets/e4fc68d3-18ed-4e8c-b9fe-7295d7a6da19" />
+<img width="1470" height="787" alt="Screenshot 2025-12-24 at 14 24 04" src="https://github.com/user-attachments/assets/a267f43d-e9ac-406d-9b4b-59b93b600fb8" />
+<img width="1172" height="489" alt="Screenshot 2025-12-24 at 14 24 56" src="https://github.com/user-attachments/assets/f1462208-c7c6-43e1-a815-56cb038cecd4" />
+<img width="733" height="757" alt="Screenshot 2025-12-24 at 14 29 05" src="https://github.com/user-attachments/assets/75bcfec7-0e07-46e7-b54f-a15db49985cd" />
+<img width="732" height="802" alt="Screenshot 2025-12-24 at 14 29 20" src="https://github.com/user-attachments/assets/ece78d11-9fff-48e1-9771-46b48c23c605" />
+<img width="730" height="801" alt="Screenshot 2025-12-24 at 14 52 37" src="https://github.com/user-attachments/assets/8b029d8c-0014-4db8-9ad8-a27c4cb0071d" />
