@@ -1,0 +1,11 @@
+{
+  "name": "tiny-crash-http-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny HTTP app with a /crash endpoint that exits the process",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,26 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: tiny-crash-app-alerts
+  namespace: monitoring
+  labels:
+    release: monitoring
+spec:
+  groups:
+  - name: tiny-crash-app.rules
+    rules:
+    - alert: TinyCrashAppPodRestarts
+      expr: |
+        increase(
+          kube_pod_container_status_restarts_total{
+            namespace="apps",
+            pod=~"tiny-crash-app.*"
+          }[5m]
+        ) > 0
+      for: 1m
+      labels:
+        severity: critical
+        service: tiny-crash-app
+      annotations:
+        summary: "tiny-crash-app pod restarted"
+        description: "The tiny-crash-app pod restarted at least once in the last 5 minutes, indicating a crash or health check failure."
